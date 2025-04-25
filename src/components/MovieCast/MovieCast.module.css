@@ -1,0 +1,65 @@
+.castSection {
+  margin-top: 40px;
+  padding: 0 20px;
+}
+
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.castItem {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  text-align: center;
+  color: #e0e0e0;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.castItem:hover {
+  transform: translateY(-5px);
+}
+
+.castImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.noImage {
+  width: 200px;
+  height: 300px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.actorName {
+  font-weight: 600;
+  margin: 0;
+}
+
+.character {
+  font-size: 0.95rem;
+  color: #bdc3c7;
+  margin-top: 5px;
+}
+
+.message {
+  text-align: center;
+  color: #ccc;
+  font-size: 1.1rem;
+}
+
+.error {
+  color: #e74c3c;
+  text-align: center;
+  font-size: 1.2rem;
+}

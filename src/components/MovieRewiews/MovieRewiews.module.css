@@ -1,0 +1,54 @@
+.reviewsSection {
+  margin: 20px;
+  padding: 20px;
+  background-color: #a9a9a9;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviewsTitle {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.reviewsList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reviewsList li {
+  background-color: #ffffff;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reviewsList li p {
+  margin: 10px 0;
+}
+
+.reviewsList li p strong {
+  color: #333;
+  font-size: 18px;
+}
+
+.reviewsList li p:last-child {
+  font-size: 14px;
+  color: #555;
+}
+
+.loadingMessage,
+.errorMessage {
+  text-align: center;
+  font-size: 18px;
+  color: #888;
+}
+
+.noReviewsMessage {
+  text-align: center;
+  font-size: 16px;
+  color: #777;
+}
